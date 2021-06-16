@@ -1,0 +1,129 @@
+body {
+  background-color: #cbbea8;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  body .main-cointainer {
+    padding: 20px;
+    margin-top: 35px;
+    margin-bottom: 50px; 
+    cursor: auto;
+    background-color: #cbbea8;
+  }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  cursor: auto;
+}
+
+.white {
+  color: #fff; }
+
+a {
+  color: #337ab7;
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+.pointer {
+  cursor: pointer; }
+
+.mt-20 {
+  margin-top: 20px !important; }
+
+.mb-20 {
+  margin-bottom: 20px !important; }
+
+.footer-card {
+  text-align: right;
+  margin-top: 40px; }
+  .footer-card button {
+    margin-left: 20px; }
+
+.login-form {
+  padding: 30px; }
+  .login-form .text-center {
+    text-align: center; }
+  .login-form .error {
+    background-color: #d32f2f;
+    margin-top: 20px; }
+    .login-form .error #client-snackbar {
+      display: flex;
+      align-items: center; }
+      .login-form .error #client-snackbar svg {
+        margin-right: 10px; }
+
+.navbar-drawer-header {
+  background-color:#cbbea8 ;
+  font-weight: bold;
+  padding: 10px; }
+  .navbar-drawer-header .navbar-drawer-text {
+  background-color:#cbbea8 ;
+    text-align: center;
+    position: relative;
+    padding-right: 20px; }
+  .navbar-drawer-header .navbar-logo {
+  background-color:#cbbea8 ;
+    padding: 10px;
+    width: 50px; }
+
+a.white:active,
+a.white:focus,
+a.white:visited {
+  color: #fff !important; }
+
+.menu-text span {
+  font-size: 1em; }
+
+#navbar-menu a:focus {
+  outline: none; }
+
+#navbar-menu svg {
+  margin-right: 10px; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color:#cbbea8 ;
+  padding: 12px 20px;
+  text-align: right;
+  font-size: 14px; 
+}
+
+.MuiDrawer-paperAnchorLeft-66{
+    background-color: #cbbea8;
+ }
+
+ .MuiToolbar-regular-43{
+   background-color: #cbbea8;
+ }
+
+ .MuiPaper-elevation2-18{
+   box-shadow: none;
+ }
+
+ h3{
+  text-align: center;
+  color:#fff ;
+ }
+
+ .card-title{
+   text-align: center;
+ }
+
+ .card-body{
+   text-align: center;
+   background-color:transparent ;
+ }
+ .text-primary{
+   color: tomato;
+ }
+
+ .MuiButton-containedPrimary-270{
+   background-color: tomato;
+ }
+
+ 

@@ -1,0 +1,24 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install": "cd client && npm install && cd ../server && npm install",
+    "start": "concurrently --raw \"cd server && npm start\" \"cd client && npm start\" ",
+    "build": "concurrently --raw \"cd server && npm run build\" \"cd client && npm run build\" ",
+    "debug": "concurrently --raw \"cd server && npm run debug\" \"cd client && npm run build\" ",
+    "lint": "tslint ./**/*.ts -t verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "concurrently": "^3.2.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "eslint": "^5.16.0",
+    "jest-dom": "^4.0.0"
+  },
+  "repository": {}
+}
